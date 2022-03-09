@@ -68,7 +68,7 @@ M.subcommand = {
 				pathMappings = {
 					{  -- Map Neovim working directory to debuggee working directory
 						localRoot = '${workspaceFolder}',
-						remoteRoot = '.'
+						remoteRoot = '/opt'
 					}
 				},
 			}
